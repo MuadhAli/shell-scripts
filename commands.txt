@@ -1,0 +1,19 @@
+make it from scratch
+
+nano my_script.sh
+
+chmod +x my_script.sh
+
+./my_script.sh
+
+sudo mv my_script.sh /usr/local/bin/
+
+my_script.sh
+
+nano ~/.bashrc
+
+alias myshortcut='/usr/local/bin/my_script.sh'
+
+source ~/.bashrc
+
+myshortcut
